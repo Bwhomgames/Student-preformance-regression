@@ -36,5 +36,9 @@ def main ():
     if pridict_btn:
         result = predict_model(h_studied,P_scores,E_Activities,h_sleep,s_question)
         st.success(f"predicted preformance index: {result:.2f}")
+
+    if st.button("About"):
+        st.text("Created by Bassel Galal")
+        st.text("Built with streamlit")
 if __name__ == '__main__':
     main()
