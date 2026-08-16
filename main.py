@@ -38,7 +38,7 @@ def main ():
         st.success(f"predicted preformance index: {result:.2f}")
 
     if About_btn:
-        st.text("Created by Bassel Galal ,Kreem Shady ,Ahmed Khaled")
+        st.text("Created by (Bassel Galal ,Kreem Shady ,Ahmed Khaled)")
         st.text("Built with streamlit")
 if __name__ == '__main__':
     main()
